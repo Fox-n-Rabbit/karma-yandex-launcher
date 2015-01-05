@@ -1,0 +1,32 @@
+{
+  "name": "karma-yandex-launcher",
+  "version": "0.1.7",
+  "description": "A Karma plugin. Launcher for Yandex Browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Fox-n-Rabbit/karma-yandex-launcher.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-launcher",
+    "yandex"
+  ],
+  "author": "Rachel Satoyama <rachel.satoyama@gmail.com>",
+  "dependencies": {},
+  "peerDependencies": {
+    "karma": ">=0.9.3"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.6",
+    "grunt-auto-release": "~0.0.2",
+    "jasmine-node": "~1.14.5"
+  },
+  "contributors": [ ]
+}

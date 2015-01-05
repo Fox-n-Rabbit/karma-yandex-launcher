@@ -43,7 +43,7 @@ function getYandexExe(yandexDirName) {
     return null;
   }
   var windowsYandexDirectory, i, prefix;
-  var suffix = '\\Google\\'+ yandexDirName + '\\Application\\yandex.exe';
+  var suffix = '\\Yandex\\'+ yandexDirName + '\\Application\\browser.exe';
   var prefixes = [process.env.LOCALAPPDATA, process.env.PROGRAMFILES, process.env['PROGRAMFILES(X86)']];
 
   for (i = 0; i < prefixes.length; i++) {
@@ -63,7 +63,7 @@ YandexBrowser.prototype = {
   DEFAULT_CMD: {
     linux: 'google-yandex', //TODO (rachel.satoyama): fix linux
     darwin: '/Applications/Yandex.app/Contents/MacOS/Yandex',
-    win32: getYandexExe('Yandex')
+    win32: getYandexExe('YandexBrowser')
   },
   ENV_CMD: 'YANDEX_BIN'
 };

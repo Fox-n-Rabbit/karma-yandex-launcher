@@ -1,6 +1,6 @@
 {
   "name": "karma-yandex-launcher",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A Karma plugin. Launcher for Yandex Browser",
   "main": "index.js",
   "scripts": {

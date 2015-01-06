@@ -61,7 +61,7 @@ YandexBrowser.prototype = {
   name: 'Yandex',
 
   DEFAULT_CMD: {
-    linux: 'google-yandex', //TODO (rachel.satoyama): fix linux
+    linux: 'yandex-browser', 
     darwin: '/Applications/Yandex.app/Contents/MacOS/Yandex',
     win32: getYandexExe('YandexBrowser')
   },

@@ -1,6 +1,7 @@
 # karma-yandex-launcher
 
-> Launcher for Yandex Browser.
+> Launcher for [Yandex Browser](http://browser.yandex.com), a Chromium-based browser from
+Yandex, Russian largest search engine company.
 
 ## Installation
 

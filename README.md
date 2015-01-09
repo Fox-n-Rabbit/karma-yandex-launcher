@@ -21,13 +21,13 @@ npm install karma-yandex-launcher --save-dev
 ```
 
 ## Configuration
+You can create launchers, [here's](http://peter.sh/experiments/chromium-command-line-switches/) a list of Chromium command-line switches.
 ```js
 // karma.conf.js
 module.exports = function(config) {
   config.set({
     browsers: ['Yandex', 'Yandex_without_security'],
 
-    // you can define custom flags, [here](http://peter.sh/experiments/chromium-command-line-switches/) you can find a list of Chromium command-line switches
     customLaunchers: {
       Yandex_without_security: {
         base: 'Yandex',

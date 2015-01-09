@@ -27,7 +27,7 @@ module.exports = function(config) {
   config.set({
     browsers: ['Yandex', 'Yandex_without_security'],
 
-    // you can define custom flags
+    // you can define custom flags, [here](http://peter.sh/experiments/chromium-command-line-switches/) you can find a list of Chromium command-line switches
     customLaunchers: {
       Yandex_without_security: {
         base: 'Yandex',
